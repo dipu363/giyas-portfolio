@@ -143,4 +143,47 @@ export const projects: Project[] = [
       "Handled notification state within the application",
     ],
   },
+   {
+    id: "bloodbank",
+    title: "Blood Bank",
+    category: "Healthcare",
+    description:
+      "A mobile application involving Patient-related operations, background services, local notifications, and API-based communication.",
+    technologies: [
+      "Android",
+      "Java",
+      "REST API",
+      "Google Map",
+      "Background Service",
+    ],
+    role: "Mobile Application Developer",
+    featured: true,
+
+    overview:
+      "Blood Bank is a mobile application that includes Audio/Video Call ,google map and background communication for Patient-related operations.",
+
+    features: [
+      "Patient notifications",
+      "Background service",
+      "Local notifications",
+      "API communication",
+      "Registration for blood donetion",
+      "Request for Blood donetion",
+      "cancalation Request",
+      "Track Blood donetion history"
+    ],
+
+    challenges: [
+      "Handling background communication",
+      "Receiving and processing notifications reliably",
+      "Maintaining application behavior when the app is not in the foreground",
+    ],
+
+    solutions: [
+      "Implemented background service functionality",
+      "Integrated local notification handling",
+      "Used API-based communication for application data",
+      "Handled notification state within the application",
+    ],
+  },
 ];

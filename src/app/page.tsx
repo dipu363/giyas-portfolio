@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import ContactCTA from "@/components/home/ContactCTA";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -239,8 +239,10 @@ export default function Home() {
     </div>
   </div>
 </section>
-        {/* ================= Contact ================= */}
-        <ContactCTA />
+
+{/* ================= Footer ================= */}
+  <Footer/>
+    
       </main>
     </>
   );

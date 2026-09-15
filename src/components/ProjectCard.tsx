@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Project } from "@/data/projects";
+import { Smartphone } from "lucide-react";
 
 type ProjectCardProps = {
   project: Project;
@@ -13,10 +14,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-emerald-100 transition duration-500 group-hover:scale-125" />
 
         <div className="absolute -bottom-12 -left-8 h-32 w-32 rounded-full bg-emerald-50 transition duration-500 group-hover:scale-125" />
+        <div className="relative flex h-28 w-28 items-center justify-center rounded-3xl bg-emerald-600 text-white shadow-lg transition duration-500 group-hover:scale-105">
+        <Smartphone size={48} strokeWidth={1.8} />
+          </div>
 
-        <div className="relative flex h-28 w-28 items-center justify-center rounded-3xl bg-emerald-600 text-4xl font-bold text-white shadow-lg transition duration-500 group-hover:scale-105">
-          {project.title.charAt(0)}
-        </div>
+
       </div>
 
       {/* Content */}
