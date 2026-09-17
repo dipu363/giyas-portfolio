@@ -69,7 +69,7 @@ export const skillGroups: SkillGroup[] = [
       },
       {
         name: "Spring Boot",
-        icon: "/images/tech/spring-boot.png",
+        icon: "/images/tech/springboot.png",
       },
       {
         name: "Node.js",

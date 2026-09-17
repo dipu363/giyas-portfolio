@@ -35,7 +35,7 @@ const experience = [
 
 const education = [
   {
-    title: "Diploma in Computer Programming",
+    title: "PGD in Computer Programming",
     institution: "The Computers Limited",
     period: "2017 – 2018",
   },
@@ -118,7 +118,7 @@ export default function ResumePage() {
               </div>
 
               <div className="rounded-2xl bg-white p-7 shadow-sm">
-                <p className="text-3xl font-bold text-emerald-600">2</p>
+                <p className="text-3xl font-bold text-emerald-600">4</p>
                 <p className="mt-2 font-semibold text-gray-900">
                   Core Platforms
                 </p>

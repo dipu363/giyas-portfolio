@@ -8,7 +8,7 @@ const highlights = [
     description: "Professional experience in mobile and software development.",
   },
   {
-    number: "2",
+    number: "4",
     title: "Core Platforms",
     description: "Flutter cross-platform development and native Android.",
   },
@@ -22,7 +22,7 @@ const highlights = [
 const education = [
   {
     period: "2017 – 2018",
-    title: "Diploma - Computer Programming",
+    title: "PGD - Computer Programming",
     institution: "The Computers Limited (IsDB IT Scholarship)",
   },
   {
@@ -103,35 +103,40 @@ export default function AboutPage() {
               </div>
 
               {/* Developer Card */}
-              <div className="relative mx-auto w-full max-w-md">
-                <div className="rounded-3xl bg-gray-50 p-8">
-                  <div className="flex h-28 w-28 items-center justify-center rounded-3xl bg-emerald-600 text-5xl font-bold text-white shadow-lg">
-                    G
-                  </div>
+              {/* Developer Card */}
+                <div className="relative mx-auto w-full max-w-md">
+                  <div className="rounded-3xl bg-gray-50 p-8">
+                    <div className="h-28 w-28 overflow-hidden rounded-3xl bg-emerald-600 shadow-lg">
+                      <img
+                        src="/images/giyas.jpg"
+                        alt="Giyas Uddin"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
 
-                  <h3 className="mt-8 text-2xl font-bold text-gray-900">
-                    Giyas Uddin
-                  </h3>
+                    <h3 className="mt-8 text-2xl font-bold text-gray-900">
+                      Giyas Uddin
+                    </h3>
 
-                  <p className="mt-2 font-medium text-emerald-600">
-                    Flutter & Java Developer
-                  </p>
-
-                  <p className="mt-4 text-sm leading-6 text-gray-600">
-                    Mobile Application Specialist focused on Flutter, Android,
-                    Java, APIs, Firebase, and scalable software solutions.
-                  </p>
-
-                  <div className="mt-6 border-t border-gray-200 pt-6">
-                    <p className="text-sm font-semibold text-gray-900">
-                      Based in
+                    <p className="mt-2 font-medium text-emerald-600">
+                      Flutter & Java Developer
                     </p>
-                    <p className="mt-1 text-sm text-gray-500">
-                      Dhaka, Bangladesh
+
+                    <p className="mt-4 text-sm leading-6 text-gray-600">
+                      Mobile Application Specialist focused on Flutter, Android,
+                      Java, APIs, Firebase, and scalable software solutions.
                     </p>
+
+                    <div className="mt-6 border-t border-gray-200 pt-6">
+                      <p className="text-sm font-semibold text-gray-900">
+                        Based in
+                      </p>
+                      <p className="mt-1 text-sm text-gray-500">
+                        Dhaka, Bangladesh
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </section>
